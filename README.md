@@ -31,3 +31,6 @@ python gigachat_agent.py
 TIME — таймаут запроса к API (в секундах)
 
 ITERATIONS — максимальное число итераций агента
+
+## Лицензия
+MIT
