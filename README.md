@@ -1,2 +1,33 @@
 # gigachat-resume-agent
-An AI agent for automatically evaluating the alignment of resumes with job requirements. It utilizes the GigaChat API and LangChain.
+
+AI-агент для автоматической оценки соответствия резюме требованиям вакансии. Использует GigaChat API и LangChain.
+
+## Возможности
+
+- Парсинг резюме (извлечение навыков, опыта, образования)
+- Сравнение с текстом вакансии
+- Формирование структурированного отчёта с рекомендацией
+- Настройка таймаута и количества итераций через конфиг
+
+## Установка зависимостей
+
+```bash
+pip install -r requirements.txt
+
+## Использование
+Получите Клиент ID, API-ключ и SCOPE в кабинете GigaChat.
+
+Запустите скрипт:
+
+bash
+python gigachat_agent.py
+При первом запуске введите client id, access token и scope.
+
+Введите текст вакансии и резюме.
+
+## Конфигурация
+В файле ini.txt можно настроить:
+
+TIME — таймаут запроса к API (в секундах)
+
+ITERATIONS — максимальное число итераций агента
