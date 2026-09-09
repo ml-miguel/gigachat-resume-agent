@@ -1,0 +1,2 @@
+langchain-gigachat>=0.4.0
+langchain-classic>=0.2.0
